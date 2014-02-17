@@ -13,6 +13,7 @@ describe Rack::Rewritten::Url do
     before {
       @html_body = <<-HTML
       <html>
+        <head>ßäü76$°!êí€</head>
         <body>
         <a href="/">home</a>
         <a href="/foo">foo</a>
